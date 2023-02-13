@@ -19,7 +19,10 @@ public class SimpleMovie {
     public ArrayList<String> getActors() {
         return actors;
     }
-
+    public String getTitle()
+    {
+        return title;
+    }
     public String toString() {
         return "Title: " + title + "\n" + "Actors: " + actors + "\n";
     }
